@@ -10,6 +10,8 @@ The goal is simple: ship faster with AI-generated code while keeping review qual
 - [Agent handoff template](templates/agent-handoff-template.md)
 - [Workflow trace log](templates/workflow-trace-log.md)
 - [Human approval gate map](templates/human-approval-gate-map.md)
+- [Agent supervision contract](templates/agent-supervision-contract.md)
+- [AI feature execution receipt](templates/ai-feature-execution-receipt.md)
 - [7-day rollout plan](docs/7-day-rollout-plan.md)
 - [Sample workflow risk map](examples/sample-workflow-risk-map.md)
 
@@ -22,6 +24,7 @@ This kit is useful if your team is already using AI coding agents and starting t
 - scripts or CI steps running before someone has approved the risk,
 - missing evidence for what was tested,
 - agent handoffs that are hard to audit later.
+- AI product features with unclear cost, privacy, or review receipts.
 
 ## How To Use It
 
