@@ -8,6 +8,7 @@ The goal is simple: ship faster with AI-generated code while keeping review qual
 
 - [AI-generated PR review checklist](templates/ai-pr-review-checklist.md)
 - [Agent handoff template](templates/agent-handoff-template.md)
+- [Agent handoff receipt](templates/agent-handoff-receipt.md)
 - [Workflow trace log](templates/workflow-trace-log.md)
 - [Human approval gate map](templates/human-approval-gate-map.md)
 - [Agent supervision contract](templates/agent-supervision-contract.md)
@@ -23,7 +24,8 @@ This kit is useful if your team is already using AI coding agents and starting t
 - unclear ownership between human developers and agents,
 - scripts or CI steps running before someone has approved the risk,
 - missing evidence for what was tested,
-- agent handoffs that are hard to audit later.
+- agent handoffs that are hard to audit later,
+- retries that do not preserve the original stop reason.
 - AI product features with unclear cost, privacy, or review receipts.
 
 ## How To Use It
